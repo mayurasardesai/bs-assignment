@@ -1,0 +1,24 @@
+userName: ${USER_NAME}
+accessKey: ${ACCESS_KEY}
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - deviceName: OnePlus 12R
+    osVersion: 14.0
+    browserName: chrome
+    deviceOrientation: portrait
+parallelsPerPlatform: 2
+browserstackLocal: true
+buildName: bs-assignment
+buildIdentifier: 1
+projectName: BrowserStack Assignment
+debug: true
+networkLogs: true
+consoleLogs: info
